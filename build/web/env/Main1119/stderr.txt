@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "./env/Main1119/Main1119.py", line 1, in <module>
+    sdfdf
+NameError: name 'sdfdf' is not defined

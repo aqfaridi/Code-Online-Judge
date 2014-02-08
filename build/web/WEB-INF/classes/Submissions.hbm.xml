@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class dynamic-insert="false" dynamic-update="false" mutable="true" name="pojo.Submissions" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="submissions">
+    <id column="codefilename" name="codefilename">
+      <generator class="assigned"/>
+    </id>
+    <property name="username">
+      <column name="username"/>
+    </property>
+    <property name="langdB">
+      <column name="langdB"/>
+    </property>
+    <property name="ext">
+      <column name="ext"/>
+    </property>
+    <property name="path">
+      <column name="path"/>
+    </property>
+    <property name="status">
+      <column name="status"/>
+    </property>
+    <property name="timelimit">
+      <column name="timelimit"/>
+    </property>
+    <property name="access">
+      <column name="access"/>
+    </property>
+    <property name="submittime">
+      <column name="submittime"/>
+    </property>
+    <property name="rid">
+      <column name="rid"/>
+    </property>
+    <property name="pid">
+      <column name="pid"/>
+    </property>
+    <property name="contestid">
+      <column name="contestid"/>
+    </property>
+    <property name="memory">
+      <column name="memory"/>
+    </property>
+    <property name="problemid">
+      <column name="problemid"/>
+    </property>
+  </class>
+</hibernate-mapping>

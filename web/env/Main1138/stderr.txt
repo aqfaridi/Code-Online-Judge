@@ -1,0 +1,4 @@
+  File "./env/Main1138/Main1138.py", line 1
+    for i inrange(1,100000000-1):
+                ^
+SyntaxError: invalid syntax

@@ -1,0 +1,26 @@
+<p><span style="font-size: 14pt;">Ramesh and suresh designed a new funny game "BREAK THE STRING" in which ramesh give suresh N strings and suresh have to tell him how many pairs of the strings are funny string pair.</span><br /><span style="font-size: 14pt;">Consider a string A that can be breakable in B,C such that A=B+C (Eg: ramesh=ram+esh), and if we swap B,C and concatenate them i.e C+B=D (Eg: esh+ram=eshram) such that (A,D) make a funny string pair. </span><br /><span style="font-size: 14pt;">Suresh have to give him number of funny string pairs among N strings.</span></p>
+<p><br /><span style="font-size: 14pt;">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<strong> INPUT</strong></span><br /><span style="font-size: 14pt;">First line contain N(&lt;=50). Next N lines contains strings of different lengths(&lt;=50).</span></p>
+<p><br /><span style="font-size: 14pt;">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; <strong>OUTPUT</strong></span><br /><span style="font-size: 14pt;">Number of funny string pair.</span></p>
+<p><br /><span style="font-size: 14pt;"><strong>SAMPLE</strong></span></p>
+<p>&nbsp;</p>
+<table style="height: 78px;" width="422">
+<tbody>
+<tr>
+<td><span style="font-size: 14pt;">Sample Input:</span></td>
+<td><span style="font-size: 14pt;">Sample Output:</span></td>
+</tr>
+<tr>
+<td><span style="font-size: 14pt;">2</span></td>
+<td>1</td>
+</tr>
+<tr>
+<td><span style="font-size: 14pt;">kyoto</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><span style="font-size: 14pt;">tokyo</span></td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>  

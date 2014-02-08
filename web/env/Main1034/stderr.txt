@@ -1,0 +1,4 @@
+awk: ./env/Main1034/Main1034.awk:4: int main() {
+awk: ./env/Main1034/Main1034.awk:4:     ^ syntax error
+awk: ./env/Main1034/Main1034.awk:7:     return 0;
+awk: ./env/Main1034/Main1034.awk:7:     ^ `return' used outside function context

@@ -1,0 +1,301 @@
+
+root { 
+    display: block;
+}
+
+user agent stylesheethtml {
+	display: block;
+	}
+
+div {
+	display: block;
+
+	}
+
+body, button, input, label, select, td, textarea {
+	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+	font-size: 11px;
+	}
+body {
+	line-height: 1.28;
+	text-align: left;
+	direction: ltr;
+	background:url(../images/lp-pattern-bg.png);
+	}
+a img {
+    border: 0;
+}
+.header
+	{
+	float:left;
+	bottom:0;
+	margin:0px;
+	padding:0px;
+	height:45px;
+	width:100%;
+	min-width: 981px;
+	position: relative;
+	z-index: 1800;
+	-webkit-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .52);
+	background: url(../images/bg-image.png);
+	-moz-box-shadow: 2px 2px 10px;
+	-webkit-box-shadow: 2px 2px 10px;
+	 }
+.logo
+{
+	float:left;
+	margin:0px;
+	padding:0px;
+	height:45px;
+	width:25%;
+	}
+.searchheader{
+	float:left;
+	margin:0px;
+	padding:0px;
+	height:45px;
+	width:30%;
+	font-size: 12px;
+	}
+.searchheader input
+{
+margin-top:10px;
+	}
+#suggestion_bx
+{ z-index: 1800;
+position: relative;
+width:196px;
+font-family:arial;
+font-size:13px;
+overflow: auto;
+resize: none;
+border-right: solid 2px #9d9dff;
+border-left:solid 2px #9d9dff;
+padding:5px;
+background: rgba(0,0,0,.52);
+}
+#suggestion_bx:hover{
+   background:  rgba(6, 96, 255, 0.45);
+}
+#suggestion_box a:link,#suggestion_box a:active,#suggestion_box a:visited{
+    color:#FFFFFF;
+    text-decoration:none;
+}
+#searchid{
+    color: #333333;
+    padding-left:5px;
+    padding-right:5px;
+    margin-right:1px;
+    margin-left:8px;
+    border: none;
+    width: 210px;
+    height: 22px;
+}
+#suggestion_box
+{
+
+position: absolute;
+margin-bottom: 10px;
+margin-left:8px;
+
+font-family:arial;
+font-size:13px;
+border-bottom:solid 2px #9d9dff;
+border-bottom-style: outset;
+-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;
+}
+.menu{
+	margin-top:8px;
+	margin-right: 0px;
+	height:20px;
+	color:#FFFFFF;
+	font:10px Verdana;
+	list-style-type: none;
+	text-align: right;
+	}
+.menu a:link,.menu a:visited
+	{
+	color:#FFFFFF;
+	background:  #lightpink;
+	text-decoration:none;
+	}
+.menu a:hover{
+	color: lightpink;
+	}
+.footer
+{
+	float:left;
+	bottom:0;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:45px;
+	color:#FFFFFF;
+	width:100%;
+	min-width: 981px;
+	position: relative;
+	z-index: 300;
+	-webkit-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .52);
+	background:url(../images/bg-image.png)  center;
+	}
+.footer a:active,.footer a:link,.footer a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+.footer a:hover
+{
+	color: lightpink;
+	}
+.clearfix {
+	display: block;
+	}
+
+.clear{
+clear: both;
+height: 1px !important;
+line-height: 1px !important;
+overflow: hidden !important;
+font-size: 1px;
+}
+
+.round
+{
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+border-radius: 8px;
+
+}
+.bottom-round{
+
+            -webkit-border-bottom-left-radius: 6px;
+            -webkit-border-bottom-right-radius: 6px;
+            -moz-border-bottom-left-radius: 6px;
+            -moz-border-bottom-right-radius: 6px;
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+
+        }
+.mainmid
+{
+	float:left;
+	margin:10px 10px 0px 10px;
+	padding:0px;
+	width:50%;
+	position: relative;
+	min-height:1130px;
+	}
+
+/* #Buttons
+================================================== */
+
+.button1, .button1:visited {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+    background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+    background-color:#ededed;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    color:#777777;
+    font-size:14px;
+    padding:6px 15px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #ffffff;
+    cursor: pointer;
+}
+.ie7 .button1 {
+	line-height:24px;
+	padding:3px 10px;
+}
+
+
+.button1:hover {
+     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+     background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+     background-color:#dfdfdf;
+ }
+.button1:active {
+      position:relative;
+      top:1px;
+  }
+
+
+
+
+.buttonOne, .buttonOne:visited,
+input.buttonOne{
+    -moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+    box-shadow:inset 0px 1px 0px 0px #bee2f9;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf) );
+    background:-moz-linear-gradient( center top, #63b8ee 5%, #468ccf 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf');
+    background-color:#63b8ee;
+    border:1px solid #3866a3;
+    /*color:#14396a;*/
+    color:#fff;
+    /*text-shadow:1px 1px 0px #7cacde;*/
+    text-shadow:none;
+}
+.buttonOne:hover,
+input.buttonOne:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #63b8ee) );
+    background:-moz-linear-gradient( center top, #63b8ee 5%, #63b8ee 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#63b8ee');
+    background-color:#63b8ee;
+ }
+.buttonOne:active,
+input.buttonOne:active {
+      position:relative;
+      top:1px;
+  }
+
+	.button1.full-width {
+		width: 100%;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		text-align: center; }
+
+	/* Fix for odd Mozilla border & padding issues */
+	button:-moz-focus-inner,
+	input:-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+ 
+.buttonTwo, .buttonTwo:visited  {
+    -moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+    box-shadow:inset 0px 1px 0px 0px #caefab;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+    background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+    background-color:#77d42a;
+    border:1px solid #268a16;
+    color:#306108;
+    text-shadow:1px 1px 0px #aade7c;
+}
+.buttonTwo:hover,
+input.buttonTwo:hover {
+     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
+     background:-moz-linear-gradient( center top, #5cb811 5%, #77d42a 100% );
+     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a');
+     background-color:#5cb811;
+ }
+.buttonTwo:active,
+input.buttonTwo:active {
+      position:relative;
+      top:1px;
+  }
+

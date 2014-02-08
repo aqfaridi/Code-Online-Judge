@@ -1,0 +1,2 @@
+awk: ./env/Main1024/Main1024.awk:1: while True:
+awk: ./env/Main1024/Main1024.awk:1: ^ syntax error

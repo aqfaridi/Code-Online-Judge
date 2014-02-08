@@ -1,0 +1,102 @@
+#Configuring Chroot on your system : https://wiki.ubuntu.com/DebootstrapChroot
+
+
+#install dchroot package for chroot jail
+apt-get install dchroot
+
+# /etc/schroot/schroot.conf  is  a  plain  UTF-8  text  file,  describing  the chroots available for use with sbuild.
+#add information in /etc/schroot/schroot.conf
+#gksu gedit is graphical super user gedit
+
+gksu gedit schroot.conf
+
+#add these lines
+
+[quantal]
+description=Ubuntu Quantal
+location=/compileone/chroot
+priority=3
+users=faridi
+groups=sbuild
+root-groups=root
+
+
+#debootstrap is a tool which will install a Debian base system into a subdirectory of another, already installed system.
+
+apt-get install debootstrap
+
+#create a directory to be your "jail"
+mkdir compileone
+cd /compileone
+mkdir chroot
+#now /compileone/chroot is your "jail"
+
+
+#install the base file system, let say ubuntu 12.10 (quantal)
+debootstrap --variant=buildd --arch i386 quantal /compileone/chroot/ http://archive.ubuntu.com/ubuntu
+
+#mount proc directory of parent ubuntu to child proc directory for handling running process details
+#so you can use commands like "ps aux" and "kill" to control processes running in the jail
+mount -o bind /proc /compileone/chroot/proc
+
+
+####################################Not Needed###################
+#copy the "/etc/resolv.conf" file from your actual file sytem to the one in the CHROOT JAIL to enable DNS 
+#resolution for programs running in the jail
+cp /etc/resolv.conf /compileone/chroot/etc/resolv.conf 
+
+#export the chroot jail display to your actual X server outside the jail to run graphical applications inside the jail
+export DISPLAY=:0.0
+###############################Not Needed#########################
+
+
+#The chroot command allows you to temporarily change the root of the file system
+#chroot jail create an isolated location from which you can run programs that are
+#separated from the actual file system (like a sandbox)
+
+chroot /compileone/chroot
+
+#setup all the compilers and interpreters. 
+apt-get update
+apt-get install bf bc g++ fpc mono-gmcs openjdk-6-jdk perl php5 python python3 rhino ruby ghc
+
+
+
+#psmisc
+#This PSmisc package is a set of some small useful utilities that use the proc filesystem.
+#it includes "killall" utility - kills a process by its name, similar to a pkill found in some other Unices.
+
+#python3-pip : A tool for installing and managing Python packages.
+#judge requires pymysql for db interaction
+
+apt-get install psmisc python-pip
+pip install pymysql
+pip install psutil
+
+
+#Finally create user 'compileone' and change permission of directories to ensure security.
+#useradd
+#-m : The user's home directory will be created if it does not exist.
+#-u uid : The numerical value of the user's ID.Values between 0 and 99 are typically reserved for system accounts.
+#-s shell : The name of the user's login shell. 	
+#-p password
+
+chmod 700 /tmp
+useradd -m -u 9000 -s /bin/bash compileone -p password
+cd /home/compileone
+# copy and paste run.py here
+
+#making directories with restricted permissions
+
+mkdir env io_cache
+chmod 755 env
+chmod 700 io_cache
+
+#change ownership of env to compileone
+chown compileone env
+#change group of env to compileone
+chgrp compileone env
+#change permission of run.py to read and write to owner and no permission to group or others classes
+chmod 600 run.py
+
+

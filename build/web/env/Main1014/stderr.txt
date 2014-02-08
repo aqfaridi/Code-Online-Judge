@@ -1,0 +1,1 @@
+./env/Main1014/Main1014.cpp:1:1: error: ‘dsfdsfdf’ does not name a type

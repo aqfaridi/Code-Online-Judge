@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "./env/Main1026/Main1026.py", line 2, in <module>
+    print 2
+IOError: [Errno 27] File too large

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class dynamic-insert="false" dynamic-update="false" mutable="true" name="pojo.Problems" optimistic-lock="version" polymorphism="implicit" select-before-update="false">
+   <id name="problemcode"  column="problemcode">
+          <generator class="assigned"/>
+    </id>
+    <property name="contestcode">
+        <column name="contestcode"/>
+    </property>
+    
+    <property name="problemname">
+        <column name="problemname"/>
+    </property>
+    <property name="timelimit">
+        <column name="timelimit"/>
+    </property>
+    <property name="problemsetter">
+        <column name="problemsetter"/>
+    </property>
+    <property name="problemtester">
+        <column name="problemtester"/>
+    </property>
+    <property name="testfiles">
+        <column name="testfiles"/>
+    </property>
+    <property name="problemdescription">
+        <column name="problemdescription"/>
+    </property>
+    <property name="success">
+        <column name="success"/>
+    </property>
+    <property name="total">
+        <column name="total"/>
+    </property>
+     <property name="difficulty">
+        <column name="difficulty"/>
+    </property>
+    
+  </class>    
+</hibernate-mapping>

@@ -1,0 +1,1 @@
+./env/Main1112/Main1112.cpp:1:1: error: ‘sadsda’ does not name a type

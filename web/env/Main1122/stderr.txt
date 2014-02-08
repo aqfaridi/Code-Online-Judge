@@ -1,0 +1,7 @@
+./env/Main1122/Main1122.cpp: In function ‘int main()’:
+./env/Main1122/Main1122.cpp:7:12: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+In file included from /usr/include/stdio.h:934:0,
+                 from /usr/include/c++/4.7/cstdio:44,
+                 from ./env/Main1122/Main1122.cpp:2:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:103:1: error:   initializing argument 1 of ‘int printf(const char*, ...)’ [-fpermissive]
+./env/Main1122/Main1122.cpp:7:12: warning: format not a string literal and no format arguments [-Wformat-security]

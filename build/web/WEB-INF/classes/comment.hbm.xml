@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class dynamic-insert="false" dynamic-update="false" mutable="true" name="pojo.Comment" optimistic-lock="version" polymorphism="implicit" select-before-update="false">
+   <id name="id"  column="id">
+          <generator class="increment"/>
+   </id>    
+   <property name="username">
+        <column name="username"/>
+    </property>
+       <property name="valid">
+        <column name="valid"/>
+    </property>
+    <property name="problemcode">
+        <column name="problemcode"/>
+    </property>
+    <property name="contestcode">
+        <column name="contestcode"/>
+    </property>
+    <property name="commentProblem">
+        <column name="commentProblem"/>
+    </property>
+    
+    <property name="submittime">
+        <column name="submittime"/>
+    </property>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,2 @@
+./env/Main1142/Main1142.c:1:1: error: unknown type name ‘sdf’
+./env/Main1142/Main1142.c:3:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fds’

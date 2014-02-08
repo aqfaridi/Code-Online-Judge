@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "./env/Main1171/Main1171.py", line 1, in <module>
+    fdsdffds
+NameError: name 'fdsdffds' is not defined

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class dynamic-insert="false" dynamic-update="false" mutable="true" name="pojo.ContestInfo" optimistic-lock="version" polymorphism="implicit" select-before-update="false">
+    <id column="contestcode" name="contestCode">
+      <generator class="assigned"/>
+    </id>
+     <property name="contestName">
+      <column name="contestName"/>
+     </property>
+    <property name="startTime">
+      <column name="starttime"/>
+    </property>
+    <property name="endTime">
+      <column name="endtime"/>
+    </property>
+    <property name="poster">
+      <column name="poster"/>
+    </property>
+     <property name="nop">
+      <column name="nop"/>
+    </property>
+    <property name="description" type="text">
+      <column name="description"/>
+    </property>
+  </class>
+</hibernate-mapping>

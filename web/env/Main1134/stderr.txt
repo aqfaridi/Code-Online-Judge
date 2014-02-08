@@ -1,0 +1,6 @@
+awk: ./env/Main1134/Main1134.awk:1: while True:
+awk: ./env/Main1134/Main1134.awk:1: ^ syntax error
+awk: ./env/Main1134/Main1134.awk:3:     if(n == 42):
+awk: ./env/Main1134/Main1134.awk:3:     ^ syntax error
+awk: ./env/Main1134/Main1134.awk:5:     if(n == 42):
+awk: ./env/Main1134/Main1134.awk:5:                ^ syntax error

@@ -1,0 +1,1 @@
+./env/Main1172/Main1172.cpp:1:1: error: ‘sadsad’ does not name a type

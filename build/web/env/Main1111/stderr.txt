@@ -1,0 +1,1 @@
+./env/Main1111/Main1111.cpp:1:1: error: ‘fghfh’ does not name a type

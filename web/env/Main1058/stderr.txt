@@ -1,0 +1,1 @@
+./env/Main1058/Main1058.cpp:1:1: error: ‘gfhfg’ does not name a type

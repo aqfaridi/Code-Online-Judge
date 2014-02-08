@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class dynamic-insert="false" dynamic-update="false" mutable="true" name="pojo.Ranking" optimistic-lock="version" polymorphism="implicit" select-before-update="false">
+    <id column="userid" name="userid">
+      <generator class="assigned"/>
+    </id>
+    <property name="contestid">
+      <column name="contestid"/>
+    </property>
+    <property name="Ascore">
+      <column name="Ascore"/>
+    </property>
+    <property name="Atime">
+      <column name="Atime"/>
+    </property>
+    <property name="Apanalty">
+      <column name="Apanalty"/>
+    </property>
+    <property name="Bscore">
+      <column name="Bscore"/>
+    </property>
+    <property name="Btime">
+      <column name="Btime"/>
+    </property>
+    <property name="Bpanalty">
+      <column name="Bpanalty"/>
+    </property>
+    <property name="Cscore">
+      <column name="Cscore"/>
+    </property>
+    <property name="Ctime">
+      <column name="Ctime"/>
+    </property>
+    <property name="Cpanalty">
+      <column name="Cpanalty"/>
+    </property>
+    <property name="Dscore">
+      <column name="Dscore"/>
+    </property>
+    <property name="Dtime">
+      <column name="Dtime"/>
+    </property>
+    <property name="Dpanalty">
+      <column name="Dpanalty"/>
+    </property>
+    <property name="Escore">
+      <column name="Escore"/>
+    </property>
+    <property name="Etime">
+      <column name="Etime"/>
+    </property>
+    <property name="Epanalty">
+      <column name="Epanalty"/>
+    </property>
+    <property name="Fscore">
+      <column name="Fscore"/>
+    </property>
+    <property name="Ftime">
+      <column name="Ftime"/>
+    </property>
+    <property name="Fpanalty">
+      <column name="Fpanalty"/>
+    </property>
+    <property name="Gscore">
+      <column name="Gscore"/>
+    </property>
+    <property name="Gtime">
+      <column name="Gtime"/>
+    </property>
+    <property name="Gpanalty">
+      <column name="Gpanalty"/>
+    </property>
+    <property name="Hscore">
+      <column name="Hscore"/>
+    </property>
+    <property name="Htime">
+      <column name="Htime"/>
+    </property>
+    <property name="Hpanalty">
+      <column name="Hpanalty"/>
+    </property>
+    <property name="Iscore">
+      <column name="Iscore"/>
+    </property>
+    <property name="Itime">
+      <column name="Itime"/>
+    </property>
+    <property name="Ipanalty">
+      <column name="Ipanalty"/>
+    </property>
+    <property name="Jscore">
+      <column name="Jscore"/>
+    </property>
+    <property name="Jtime">
+      <column name="Jtime"/>
+    </property>
+    <property name="Jpanalty">
+      <column name="Jpanalty"/>
+    </property>
+    <property name="score">
+      <column name="score"/>
+    </property>
+    <property name="time">
+      <column name="time"/>
+    </property>
+    <property name="panalty">
+      <column name="panalty"/>
+    </property>
+  </class>
+</hibernate-mapping>

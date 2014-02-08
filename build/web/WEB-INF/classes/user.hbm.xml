@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class dynamic-insert="false" dynamic-update="false" mutable="true" name="pojo.User" optimistic-lock="version" polymorphism="implicit" select-before-update="false">
+   <id name="username"  column="username">
+          <generator class="assigned"/>
+   </id>
+   <property name="password">
+        <column name="password"/>
+    </property>
+   <property name="fullname">
+        <column name="fullname"/>
+    </property>
+    
+    <property name="emailid">
+        <column name="emailid"/>
+    </property>
+    <property name="valid">
+        <column name="valid"/>
+    </property>
+    <property name="institute">
+        <column name="institute"/>
+    </property>
+    <property name="phoneno">
+        <column name="phoneno"/>
+    </property>
+    <property name="address">
+        <column name="address"/>
+    </property>
+    <property name="city">
+        <column name="city"/>
+    </property>
+    <property name="country">
+        <column name="country"/>
+    </property>
+    
+    <property name="website">
+        <column name="website"/>
+    </property>
+    <property name="aboutme">
+        <column name="aboutme"/>
+    </property>   
+    <property name="dateofbirth">
+        <column name="dateofbirth"/>
+    </property>
+    <property name="authcode">
+        <column name="authcode"/>
+    </property>
+    <property name="rating">
+        <column name="rating"/>
+    </property>
+    <property name="contribution">
+        <column name="contribution"/>
+    </property>
+    <property name="ipaddress">
+        <column name="ipaddress"/>
+    </property>
+    <property name="dpimage">
+        <column name="dpimage"/>
+    </property>
+       <property name="dlang">
+        <column name="dlang"/>
+    </property>
+
+  </class>
+</hibernate-mapping>

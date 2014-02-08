@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from foxypixel.net/cleanzone/pages-sign-up.html by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 12 Jul 2014 11:03:47 GMT -->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+
+	<title>Clean Zone</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:300,200,100' rel='stylesheet' type='text/css'>
+
+	<!-- Bootstrap core CSS -->
+	<link href="js/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="fonts/font-awesome-4/css/font-awesome.min.css">
+
+
+	<!-- Custom styles for this template -->
+	<link href="css/style.css" rel="stylesheet" />	
+        <link href="assets/css/bootstrap1.css" rel="stylesheet" />
+</head>
+
+<body class="texture">
+
+<div id="cl-wrapper" class="sign-up-container">
+
+	<div class="middle-sign-up">
+		<div class="block-flat">
+			<div class="header">							
+				<h3 class="text-center"><img class="logo-img" src="images/logo.png" alt="logo"/> Clean Zone</h3>
+			</div>
+			<div>
+<form style="margin-bottom: 0px !important;" class="form-horizontal" action="registeraction.jsp" parsley-validate method="post">
+        <div class="content">
+                <h5 class="title text-center"><strong>Sign Up</strong></h5>
+              <hr/>
+
+
+<div class="form-group">
+    <div class="col-sm-12">
+        <div class="input-group">
+                <span class="input-group-addon"><i class="icon-user"></i></span>
+                <input type="text" name="fullname"   required data-parsley-minlength="6" placeholder="Fullname" class="form-control">
+        </div>
+    <div id="nick-error"></div>
+</div>
+</div>
+    <div class="form-group">
+        <div class="col-sm-12">
+                <div class="input-group">
+                        <span class="input-group-addon"><i class="icon-barcode"></i></span>
+                        <input type="text" name="username" parsley-trigger="change" parsley-error-container="#nick-error" required placeholder="Username" class="form-control">
+                </div>
+                <div id="nick-error"></div>
+    </div>
+    </div>
+    <div class="form-group">
+            <div class="col-sm-12">
+                    <div class="input-group">
+                            <span class="input-group-addon"><i class="icon-envelope"></i></span>
+                            <input type="email" name="email" parsley-trigger="change" parsley-error-container="#email-error" required placeholder="E-mail" class="form-control">
+                    </div>
+<div id="email-error"></div>
+            </div>
+    </div>
+    <div class="form-group">
+     <div class="col-sm-6 col-xs-6">
+      <div class="input-group">
+           <span class="input-group-addon"><i class="icon-lock"></i></span>
+           <input id="pass1" name="passwd" type="password" parsley-error-container="#password-error" placeholder="Password" required class="form-control">
+      </div>
+<div id="password-error"></div>
+            </div>
+            <div class="col-sm-6 col-xs-6">
+                    <div class="input-group">
+                            <span class="input-group-addon"><i class="icon-lock"></i></span>
+                            <input parsley-equalto="#pass1" name="conpasswd" type="password" parsley-error-container="#confirmation-error"required placeholder="Confirm Password" class="form-control">
+                    </div>
+<div id="confirmation-error"></div>
+            </div>
+    </div>
+             <p class="spacer">By creating an account, you agree with the <a href="#">Terms</a> and <a href="#">Conditions</a>.</p>
+            <button class="btn btn-block btn-success btn-rad btn-lg" type="submit">Sign Up</button>
+							
+					</div>
+			  </form>
+			</div>
+		</div>
+		<div class="text-center out-links"><a href="#">&copy; 2014 Your Company</a></div>
+	</div> 
+	
+</div>
+
+ <script type="text/javascript">
+    $(document).ready(function(){
+      //initialize the javascript
+      App.init();
+      $('form').parsley();
+    });
+  </script>
+   <script src="js/jquery.parsley/dist/parsley.min.html" type="text/javascript"></script>
+  <script src="js/jquery.parsley/src/extra/dateiso.html" type="text/javascript"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.parsley/dist/parsley.html" type="text/javascript"></script>
+  <script src="js/behaviour/general.js" type="text/javascript"></script>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/behaviour/voice-commands.js"></script>
+<script src="js/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.flot/jquery.flot.js"></script>
+<script type="text/javascript" src="js/jquery.flot/jquery.flot.pie.js"></script>
+<script type="text/javascript" src="js/jquery.flot/jquery.flot.resize.js"></script>
+<script type="text/javascript" src="js/jquery.flot/jquery.flot.labels.js"></script>
+</body>
+
+<!-- Mirrored from foxypixel.net/cleanzone/pages-sign-up.html by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 12 Jul 2014 11:03:47 GMT -->
+</html>

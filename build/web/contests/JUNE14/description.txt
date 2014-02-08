@@ -1,0 +1,11 @@
+<div style="font-size: 13px; padding-left: 0 !important;">
+<div style="font-size: 13px; padding-left: 0 !important;"><strong style="padding-left: 15px; color: #444444; font-family: Arial, sans-serif; font-size: 13px !important; line-height: 18px;">Rules and Regulations:</strong></div>
+</div>
+<div style="font-size: 13px; padding-left: 0 !important;">This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</div>
+<ul style="margin: 30px; line-height: 18px; list-style-position: initial; padding: 0 !important; list-style-image: initial; font-family: Arial, Helvetica, sans-serif; color: #444444; font-size: 11.818181991577148px;">
+<li style="font-size: 13px; padding-left: 0 !important;">The details of the failed test cases will also be visible on your solution page.</li>
+<li style="font-size: 13px; padding-left: 0 !important;">You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li>
+<li style="font-size: 13px; padding-left: 0 !important;">Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li>
+<li style="font-size: 13px; padding-left: 0 !important;">The contest is meant for students of high school and middle school though everyone is invited to participate.</li>
+<li style="font-size: 13px; padding-left: 0 !important;">There will be separate ranking page for school students. The school students will be identified by the inistitution that they have enetered in their profile.</li>
+</ul>

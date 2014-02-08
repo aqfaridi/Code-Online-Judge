@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "./env/Main1117/Main1117.py", line 1, in <module>
+    frg
+NameError: name 'frg' is not defined

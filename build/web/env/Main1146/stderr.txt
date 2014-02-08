@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "./env/Main1146/Main1146.py", line 2, in <module>
+    n=input()
+EOFError: EOF when reading a line
